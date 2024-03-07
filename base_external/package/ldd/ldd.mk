@@ -17,3 +17,4 @@ LDD_MODULE_SUBDIRS = misc-modules scull
 
 $(eval $(misc-modules))
 $(eval $(scull))
+$(eval $(generic-package))
