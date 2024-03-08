@@ -15,6 +15,5 @@ LDD_GIT_SUBMODULES = YES
 
 LDD_MODULE_SUBDIRS = misc-modules scull
 
-$(eval $(misc-modules))
-$(eval $(scull))
+$(eval $(kernel-module))
 $(eval $(generic-package))
