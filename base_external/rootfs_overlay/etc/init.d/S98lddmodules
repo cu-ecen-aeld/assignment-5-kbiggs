@@ -1,17 +1,14 @@
 #!/bin/sh
 
-# startup - load scull, load faulty driver, modprobe on hello module
-# shutdown - unload scull, unload faulty driver, rmmod on hello module
-
 case "$1" in
-    # Start aesdsocket in daemon mode
+    # startup - load scull, load faulty driver, modprobe on hello module
     start)
         echo "Loading modules"
         scull_load
         faulty_driver_load
         modprobe hello
         ;;
-    # Stop aesdsocket and send SIGTERM
+    # shutdown - unload scull, unload faulty driver, rmmod on hello module
     stop)
         echo "Unloading modules"
         scull_unload
