@@ -5,6 +5,7 @@
 #
 ##############################################################
 
+#TODO - update to correct commit
 AESD_ASSIGNMENTS_VERSION = fa29a12c5385bb92a41e500f5c290fa5a2b9e29b
 # Note: Be sure to reference the *ssh* repository URL here (not https) to work properly
 # with ssh keys and the automated build/test system.
